@@ -1,19 +1,18 @@
-<title>Contact - ALLAMA</title>
 <?php
   /**
   * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
+  * The library is located here in this project:
+  *   public/assets/vendor/php-email-form/php-email-form.php
   */
 
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'allamacamara1@gmail.com';
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
+  $php_email_form_path = __DIR__ . '/../public/assets/vendor/php-email-form/php-email-form.php';
+  if (file_exists($php_email_form_path)) {
+    include $php_email_form_path;
   } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+    die('Unable to load the "PHP Email Form" Library! Path: ' . $php_email_form_path);
   }
 
   $contact = new PHP_Email_Form;
@@ -24,15 +23,17 @@
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  // SMTP configuration (recommended for local dev/testing)
+  // Use Mailtrap (https://mailtrap.io) to capture emails without sending to real inboxes.
+  // 1) Crée un compte Mailtrap
+  // 2) Récupère les valeurs "SMTP" (host / port / username / password)
+  // 3) Remplace ci-dessous pour qu'il corresponde à ton compte Mailtrap.
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
+    'host' => 'sandbox.smtp.mailtrap.io',
+    'username' => '92dbcaa94f2b7f',
+    'password' => 'c3e2b4375352b5',
+    'port' => '2525'
   );
-  */
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');

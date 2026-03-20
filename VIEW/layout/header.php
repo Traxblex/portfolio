@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>projet_ALLAMA</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="<../../public/assets/img/favicon.png" rel="icon">
-  <link href="<../../public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <?php $baseUrl = isset($baseUrl) ? $baseUrl : rtrim(dirname($_SERVER['SCRIPT_NAME']), "\\/") . '/'; ?>
+  <link href="<?= $baseUrl ?>public/assets/img/favicon.png" rel="icon">
+  <link href="<?= $baseUrl ?>public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -19,14 +19,14 @@
 
   <!-- Vendor CSS Files -->
   <?php $baseUrl = rtrim(dirname($_SERVER['SCRIPT_NAME']), "\\/") . '/'; ?>
-  <link href="<../../public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<../../public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="<../../public/assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="<../../public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="<../../public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="<?= $baseUrl ?>public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= $baseUrl ?>public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="<?= $baseUrl ?>public/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= $baseUrl ?>public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= $baseUrl ?>public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="<../../public/assets/css/main.css" rel="stylesheet">
+  <link href="<?= $baseUrl ?>public/assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -42,9 +42,10 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php?page=index" class="active">ACCUEIL</a></li>
-          <li><a href="index.php?page=about">ABOUT</a></li>
-          <li><a href="index.php?page=resume">CV</a></li>
+          <li><a href="index.php?page=index">ACCUEIL</a></li>
+          <li><a href="index.php?page=about">À PROPOS</a></li>
+          <li><a href="index.php?page=cv">CV</a></li>
+          <li><a href="index.php?page=entreprise">ENTREPRISE</a></li>
           <li><a href="index.php?page=projet">PROJETS</a></li>
           </li>
           <li><a href="index.php?page=contact">CONTACT</a></li>
@@ -53,10 +54,10 @@
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="https://x.com/traxblex"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.linkedin.com/in/allama-mohamed-camara-b75b00189/"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/Traxblex"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/allama013/"><i class="bi bi-instagram"></i></a>
       </div>
 
     </div>

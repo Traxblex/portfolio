@@ -1,3 +1,4 @@
+<title>CV - ALLAMA</title>
 <main class="main">
 
     <!-- Resume Section -->
@@ -5,8 +6,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <h2>CV</h2>
+        <p>Mon parcours professionnel et scolaire</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -16,55 +17,55 @@
 
             <!-- Education Section -->
             <div class="resume-item" data-aos="fade-up">
-              <h3 class="resume-title">Education</h3>
+              <h3 class="resume-title">Scolarité</h3>
 
               <div class="resume-content">
                 <article class="education-item">
-                  <h4>Master of Computer Science</h4>
-                  <h5>2019 - 2021</h5>
-                  <p class="institution"><em>Stanford University, California</em></p>
-                  <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                  <h4>BTS SIO (SLAM) </h4>
+                  <h5>2025 - aujourd'hui</h5>
+                  <p class="institution"><em>CFA INSTA, Paris</em></p>
+                  <p>je prepare le BTS SIO (SLAM)</p>
                 </article>
 
                 <article class="education-item">
-                  <h4>Bachelor of Computer Science</h4>
-                  <h5>2015 - 2019</h5>
-                  <p class="institution"><em>Massachusetts Institute of Technology</em></p>
-                  <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis delectus nihil temporibus sapiente</p>
+                  <h4>BAC PRO SN</h4>
+                  <h5>2022 - 2025</h5>
+                  <p class="institution"><em>Lycée Professionnel Gustave Ferié, Paris</em></p>
+                  <p>jai obtenu mon BAC PRO Systèmes Numériques</p>
                 </article>
               </div>
             </div><!-- End Education Section -->
 
             <!-- Professional Skills Section -->
             <div class="resume-item skills-animation" data-aos="fade-up">
-              <h3 class="resume-title">Professional Skills</h3>
+              <h3 class="resume-title">Compétences professionnelles</h3>
 
               <div class="resume-content">
                 <div class="skill-item">
                   <h4>Frontend Development</h4>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
                 <div class="skill-item">
                   <h4>Backend Development</h4>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
                 <div class="skill-item">
                   <h4>UI/UX Design</h4>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
                 <div class="skill-item">
-                  <h4>Project Management</h4>
+                  <h4>gestion de projet</h4>
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -74,42 +75,40 @@
           <div class="col-lg-6">
             <!-- Experience Section -->
             <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
+              <h3 class="resume-title">Expérience professionnelle</h3>
 
               <div class="resume-content">
                 <article class="experience-item">
-                  <h4>Senior Software Engineer</h4>
-                  <h5>2021 - Present</h5>
-                  <p class="company"><em>Google, Mountain View, CA</em></p>
+                  <h4>Devops (Alternant)</h4>
+                  <h5>2025 - aujourd'hui</h5>
+                  <p class="company"><em>BNP PARIBAS, Montreuil</em></p>
                   <ul>
-                    <li>Lead in the development, implementation, and optimization of web applications using modern technologies</li>
-                    <li>Delegate tasks to the 7 members of the development team and provide counsel on all aspects of the project</li>
-                    <li>Supervise the assessment of all web applications, mobile apps, and software platforms for quality and efficiency</li>
-                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                    <li>initiation au développement devops</li>
+                    <li>utilisation de outil d'automatisation (ansible)</li>
+                    <li>utilisation d'outils CI/CD (GitLab)</li>
+                    <li>initiation au plateforme de monitoring (dynatrace)</li>
                   </ul>
                 </article>
 
                 <article class="experience-item">
-                  <h4>Software Engineer</h4>
-                  <h5>2019 - 2021</h5>
-                  <p class="company"><em>Microsoft, Redmond, WA</em></p>
+                  <h4>Web Dev (Stage)</h4>
+                  <h5>2023 - 2025</h5>
+                  <p class="company"><em>BNP PARIBAS, montreuil</em></p>
                   <ul>
-                    <li>Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements)</li>
-                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                    <li>Recommended and consulted with clients on the most appropriate software platforms</li>
-                    <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                    <li>iniciation au développement web</li>
+                    <li>iniciation à l'utilisation de frameworks (html, css, javascript)</li>
+                    <li>iniciation à la gestion de projets</li>
                   </ul>
                 </article>
 
                 <article class="experience-item">
-                  <h4>Junior Software Developer</h4>
-                  <h5>2017 - 2019</h5>
-                  <p class="company"><em>Apple Inc., Cupertino, CA</em></p>
+                  <h4>Game Dev (Stage)</h4>
+                  <h5>Juin 2022</h5>
+                  <p class="company"><em>Sirius Production, Paris</em></p>
                   <ul>
-                    <li>Implemented responsive websites and web applications using modern JavaScript frameworks</li>
-                    <li>Collaborated with senior developers to maintain and optimize existing applications</li>
-                    <li>Participated in code reviews and contributed to team documentation efforts</li>
-                    <li>Assisted in the development of RESTful APIs and microservices</li>
+                    <li>iniciation à la programmation de jeux vidéo</li>
+                    <li>iniciation à l'utilisation de moteurs de jeu (Unity, Unreal Engine)</li>
+                    <li>participation à la création d'un mini jeu-vidéo en équipe</li>
                   </ul>
                 </article>
               </div>

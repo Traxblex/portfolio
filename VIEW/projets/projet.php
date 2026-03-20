@@ -1,3 +1,5 @@
+<title>PROJET - ALLAMA</title>
+ <?php $baseUrl = isset($baseUrl) ? $baseUrl : rtrim(dirname($_SERVER['SCRIPT_NAME']), "\\/") . '/'; ?>
  <main class="main">
 
     <!-- projet Section -->
@@ -5,88 +7,88 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>projet</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <h2>PROJETS</h2>
+        <p>les projets que j'ai réalisés durant mes études et mon parcours professionnel</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="projet-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-strategy">Strategy</li>
-            <li data-filter=".filter-finance">Finance</li>
-            <li data-filter=".filter-operations">Operations</li>
-            <li data-filter=".filter-technology">Technology</li>
+            <li data-filter="*" class="filter-active">Tous</li>
+            <li data-filter=".filter-ecole">École</li>
+            <li data-filter=".filter-personnel">Personnel</li>
+            <li data-filter=".filter-entreprise">Entreprise</li>
           </ul><!-- End projet Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-strategy">
+            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-ecole">
               <div class="projet-card">
                 <div class="projet-img">
-                  <img src="assets/img/projet/projet-1.webp" alt="projet Item" class="img-fluid">
+                  <img src="<?= $baseUrl ?>public/assets/img/projet/projet-1.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
-                    <a href="assets/img/projet/projet-1.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="<?= $baseUrl ?>public/assets/img/projet/projet-1.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
-                  <h4>Business Growth Strategy</h4>
-                  <p>Strategic Planning</p>
+                  <h4>Site vitrine</h4>
+                  <p>J'ai créé un site vitrine pour une pizzaria qui cherchait à améliorer sa présence en ligne.</p>
                   <div class="projet-tags">
-                    <span>Strategy</span>
-                    <span>Consulting</span>
+                    <span>École</span>
+                    <span>Groupe</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-finance">
+            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-ecole">
               <div class="projet-card">
                 <div class="projet-img">
-                  <img src="assets/img/projet/projet-2.webp" alt="projet Item" class="img-fluid">
+                  <img src="<?= $baseUrl ?>public/assets/img/projets/fitsport.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
-                    <a href="assets/img/projet/projet-2.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="<?= $baseUrl ?>public/assets/img/projets/fitsport.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
-                  <h4>Financial Restructuring</h4>
-                  <p>Financial Advisory</p>
+                  <h4>Application web</h4>
+                  <p>J'ai développé une application web pour permettre à un club de sport de gérer ses inscriptions et ses séances collectives.</p>
                   <div class="projet-tags">
-                    <span>Finance</span>
-                    <span>Investment</span>
+                    <span>École</span>
+                    <span>Groupe</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-operations">
+            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-personnel">
               <div class="projet-card">
                 <div class="projet-img">
-                  <img src="assets/img/projet/projet-3.webp" alt="projet Item" class="img-fluid">
+                  <img src="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
-                    <a href="assets/img/projet/projet-3.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="index.php?page=index" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
-                  <h4>Supply Chain Optimization</h4>
-                  <p>Operations Management</p>
+                  <h4>Portfolio Website</h4>
+                  <p>J'ai réalisé mon portfolio en utilisant HTML, CSS, PHP et JavaScript.</p>
                   <div class="projet-tags">
-                    <span>Operations</span>
-                    <span>Logistics</span>
+                    <span>Personel</span>
+                    <span>Development</span>
                   </div>
                 </div>
               </div>
             </div>
 
+          <!--
             <div class="col-lg-4 col-md-6 projet-item isotope-item filter-technology">
               <div class="projet-card">
                 <div class="projet-img">
-                  <img src="assets/img/projet/projet-4.webp" alt="projet Item" class="img-fluid">
+                  <img src="<?= $baseUrl ?>public/assets/img/projet/projet-4.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
-                    <a href="assets/img/projet/projet-4.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="<?= $baseUrl ?>public/assets/img/projet/projet-4.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
@@ -104,9 +106,9 @@
             <div class="col-lg-4 col-md-6 projet-item isotope-item filter-strategy">
               <div class="projet-card">
                 <div class="projet-img">
-                  <img src="assets/img/projet/projet-5.webp" alt="projet Item" class="img-fluid">
+                  <img src="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
-                    <a href="assets/img/projet/projet-5.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
@@ -124,9 +126,9 @@
             <div class="col-lg-4 col-md-6 projet-item isotope-item filter-finance">
               <div class="projet-card">
                 <div class="projet-img">
-                  <img src="assets/img/projet/projet-6.webp" alt="projet Item" class="img-fluid">
+                  <img src="<?= $baseUrl ?>public/assets/img/projet/projet-6.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
-                    <a href="assets/img/projet/projet-6.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="<?= $baseUrl ?>public/assets/img/projet/projet-6.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
@@ -140,12 +142,8 @@
                 </div>
               </div>
             </div>
-          </div><!-- End projet Items Container -->
+            </div> End projet Items Container -->
 
-        </div>
-
-        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
-          <a href="#projet" class="btn btn-primary">View All Case Studies</a>
         </div>
 
       </div>
@@ -153,51 +151,3 @@
     </section><!-- /projet Section -->
 
   </main>
-
-  <footer id="footer" class="footer">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">ALLAMA</strong> <span>All Rights Reserved<br></span></p>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
-      </div>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
