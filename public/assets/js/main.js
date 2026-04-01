@@ -195,4 +195,9 @@
     selector: '.glightbox'
   });
 
-})();
+  /**
+   * Initiate gallery lightbox (uses glightbox)
+   */
+  const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
+  });
