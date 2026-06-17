@@ -26,6 +26,9 @@ class PagesController {
             case 'entreprise':
                 include __DIR__ . '/../VIEW/entreprise/entreprise.php';
                 break;
+            case 'bts_sio':
+                include __DIR__ . '/../VIEW/bts/btsSio.php';
+                break;
             default:
                 include __DIR__ . '/../VIEW/intro/index.php';
                 break;

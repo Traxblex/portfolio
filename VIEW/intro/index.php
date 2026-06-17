@@ -27,7 +27,7 @@
           <div class="col-lg-6 order-1 order-lg-2">
             <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
               <div class="image-wrapper">
-                <img src="public/assets/img/profile/profile-square-11.webp" alt="CAMARA ALLAMA MOHAMED" class="img-fluid">
+                <img src="public/assets/img/profile/profile-square-11.png" alt="CAMARA ALLAMA MOHAMED" class="img-fluid">
                 <div class="floating-elements">
                   <div class="floating-card design" data-aos="fade-left" data-aos-delay="700">
                     <i class="bi bi-palette"></i>

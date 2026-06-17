@@ -38,7 +38,7 @@
 
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
             <figure class="profile-figure text-center text-lg-end">
-              <img src="public/assets/img/profile/profile-square-11.webp" alt="Portrait de ALLAMA" class="img-fluid profile-photo">
+              <img src="public/assets/img/profile/profile-square-11.png" alt="Portrait de ALLAMA" class="img-fluid profile-photo">
             </figure>
           </div>
         </div>
@@ -175,41 +175,41 @@
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="skill-box">
-              <h3>HTML</h3>
-              <p>langage de balisage pour la création de pages web</p>
-              <span class="text-end d-block">90%</span>
+              <h3>Langages</h3>
+              <p>C, Java, php, js, Html, CSS, Etc..</p>
+              <span class="text-end d-block">65%</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <div class="skill-box">
-              <h3>CSS</h3>
-              <p>langage de style pour la mise en page des pages web</p>
-              <span class="text-end d-block">70%</span>
+              <h3>Modélisation</h3>
+              <p>Merise, UML, SQL</p>
+              <span class="text-end d-block">80%</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="skill-box">
-              <h3>PHP</h3>
-              <p>langage de programmation pour la création de pages web dynamiques</p>
-              <span class="text-end d-block">50%</span>
+              <h3>Gestion de projets</h3>
+              <p>Trello, Gantt, pert , GIT etc</p>
+              <span class="text-end d-block">60%</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
             <div class="skill-box">
-              <h3>MySQL</h3>
-              <p>langage de requête pour la gestion de bases de données</p>
+              <h3>Systèmes et Réseaux</h3>
+              <p>VMWare, Linux, Windows, Lamp, DHCP, DNS, GLPI</p>
               <span class="text-end d-block">55%</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
@@ -221,6 +221,7 @@
         </div>
 
       </div>
+      
 
     </section><!-- /Skills Section -->
 

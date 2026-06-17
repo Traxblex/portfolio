@@ -32,8 +32,8 @@
                             <h4>Informations</h4>
                             <ul>
                                 <li><strong>Secteur :</strong> Banque et Services Financiers</li>
-                                <li><strong>Localisation :</strong> [Votre localisation]</li>
-                                <li><strong>Période :</strong> [Vos dates]</li>
+                                <li><strong>Localisation :</strong> Montreuil</li>
+                                <li><strong>Période :</strong> 2025- ce jour</li>
                                 <li><strong>Poste :</strong> Développeur en Alternance</li>
                             </ul>
                         </div>
@@ -58,37 +58,6 @@
                 </div>
             </div>
 
-            <!-- Section Compétences Acquises -->
-            <div class="row mt-5" data-aos="fade-up">
-                <div class="col-12">
-                    <h3 class="mb-4">Compétences Acquises</h3>
-                </div>
-                
-                <div class="mb-5">
-                  <div class="row g-4">
-                    <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-                        <div class="skill-item">
-                            <i class="bi bi-layout-text-window"></i>
-                            <h3>Techniques</h3>
-                            <p> PHP, JavaScript, SQL, HTML/CSS, Frameworks modernes</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-                        <div class="skill-item">
-                            <i class="bi bi-code-slash"></i>
-                            <h3>Méthodologiques</h3>
-                            <p>Agile, Gestion de projet, Versionning (Git)</p>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-                        <div class="skill-item">
-                            <i class="bi bi-phone"></i>
-                            <h3>Transversales</h3>
-                            <p>Travail en équipe, Communication, Rigueur</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
           </div>
         </div>
 
@@ -100,7 +69,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Compétences</h2>
+        <h2>Compétences Acquises</h2>
         <p>les compétences que j'ai acquises durant mes expériences et formations</p>
       </div><!-- End Section Title -->
 
@@ -110,19 +79,19 @@
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="skill-box">
-              <h3>HTML</h3>
-              <p>langage de balisage pour la création de pages web</p>
-              <span class="text-end d-block">90%</span>
+              <h3><i class="bi bi-layout-text-window"></i> Techniques</h3>
+              <p>PHP, JavaScript, SQL, HTML/CSS, Frameworks modernes</p>
+              <span class="text-end d-block">65%</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <div class="skill-box">
-              <h3>CSS</h3>
-              <p>langage de style pour la mise en page des pages web</p>
+              <h3><i class="bi bi-code-slash"></i> Méthodologiques</h3>
+              <p>Agile, Gestion de projet, Versionning (Git)</p>
               <span class="text-end d-block">70%</span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -132,22 +101,22 @@
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <div class="skill-box">
-              <h3>PHP</h3>
-              <p>langage de programmation pour la création de pages web dynamiques</p>
-              <span class="text-end d-block">50%</span>
+              <h3><i class="bi bi-phone"></i> Transversales</h3>
+              <p>Travail en équipe, Communication, Rigueur</p>
+              <span class="text-end d-block">80%</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
             <div class="skill-box">
-              <h3>MySQL</h3>
-              <p>langage de requête pour la gestion de bases de données</p>
-              <span class="text-end d-block">55%</span>
+              <h3><i class="bi bi-database"></i> Monitoring</h3>
+              <p>Outils de surveillance et de gestion des performances(dynatrace)</p>
+              <span class="text-end d-block">67%</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div>
