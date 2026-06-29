@@ -48,7 +48,7 @@
                   <img src="<?= $baseUrl ?>public/assets/img/projets/fitsport.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projets/fitsport.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="http://localhost:8888/promo321/info/cours_info_shapeche/freelanceIT/index.php?page=index" class="projet-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
