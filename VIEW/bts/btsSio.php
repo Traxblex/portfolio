@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="col-lg-5 text-center" data-aos="zoom-in" data-aos-delay="250">
-                        <img src="public/assets/img/entreprise/bnpp_logo.webp" alt="Logo SLAM" class="img-fluid rounded-3">
+                        <img src="public/assets/img/bts_sio/sio_slam.avif" alt="Logo SLAM" class="img-fluid rounded-3">
                     </div>
                     
                 </div>
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="col-lg-5 text-center" data-aos="zoom-in" data-aos-delay="250">
-                        <img src="public/assets/img/entreprise/bnpp_logo.webp" alt="Logo SLAM" class="img-fluid rounded-3">
+                        <img src="public/assets/img/bts_sio/administrateur-reseau.webp" alt="Logo SISR" class="img-fluid rounded-3">
                     </div>
                     
                 </div>
