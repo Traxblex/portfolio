@@ -2,18 +2,16 @@
 <?php $baseUrl = isset($baseUrl) ? $baseUrl : rtrim(dirname($_SERVER['SCRIPT_NAME']), "\\/") . '/'; ?>
 <main class="main">
 
-  <!-- projet Section -->
   <section id="projet" class="projet section">
 
-    <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>PROJETS</h2>
       <p>Les projets que j'ai réalisés durant mes études et mon parcours professionnel</p>
     </div>
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
         <ul class="projet-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
           <li data-filter="*" class="filter-active">Tous</li>
           <li data-filter=".filter-ecole">École</li>
@@ -23,7 +21,7 @@
 
         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
-          <!-- Projet 1 : Site Vitrine Pizzeria -->
+          <!-- 1 : Site Vitrine Pizzeria -->
           <div class="col-lg-4 col-md-6 projet-item isotope-item filter-ecole">
             <div class="projet-card">
               <div class="projet-img">
@@ -36,15 +34,12 @@
               <div class="projet-info">
                 <h4>Site vitrine</h4>
                 <p>Site vitrine pour une pizzeria avec menu, formulaire de commande et design responsive.</p>
-                <div class="projet-tags">
-                  <span>École</span>
-                  <span>Groupe</span>
-                </div>
+                <div class="projet-tags"><span>École</span><span>Groupe</span></div>
               </div>
             </div>
           </div>
 
-          <!-- Projet 2 : FitSport -->
+          <!-- 2 : FitSport -->
           <div class="col-lg-4 col-md-6 projet-item isotope-item filter-ecole">
             <div class="projet-card">
               <div class="projet-img">
@@ -58,15 +53,12 @@
               <div class="projet-info">
                 <h4>Application web FitSport</h4>
                 <p>Application de gestion des inscriptions et séances pour un club de sport.</p>
-                <div class="projet-tags">
-                  <span>École</span>
-                  <span>Groupe</span>
-                </div>
+                <div class="projet-tags"><span>École</span><span>Groupe</span></div>
               </div>
             </div>
           </div>
 
-          <!-- Projet 3 : Portfolio -->
+          <!-- 3 : Portfolio PHP MVC -->
           <div class="col-lg-4 col-md-6 projet-item isotope-item filter-personnel">
             <div class="projet-card">
               <div class="projet-img">
@@ -80,17 +72,88 @@
               <div class="projet-info">
                 <h4>Portfolio Personnel</h4>
                 <p>Portfolio réalisé en PHP MVC avec animations AOS et architecture propre.</p>
-                <div class="projet-tags">
-                  <span>Personnel</span>
-                  <span>Solo</span>
+                <div class="projet-tags"><span>Personnel</span><span>Solo</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 : FreelanceIT -->
+          <div class="col-lg-4 col-md-6 projet-item isotope-item filter-ecole">
+            <div class="projet-card">
+              <div class="projet-img">
+                <img src="<?= $baseUrl ?>public/assets/img/projets/freelanceit.webp" alt="FreelanceIT" class="img-fluid"
+                     onerror="this.src='<?= $baseUrl ?>public/assets/img/projet/projet-1.webp'">
+                <div class="projet-overlay">
+                  <a href="<?= $baseUrl ?>public/assets/img/projets/freelanceit.webp" class="glightbox projet-lightbox" title="FreelanceIT"><i class="bi bi-zoom-in"></i></a>
+                  <a href="index.php?page=projet_detail&id=4" class="projet-details-link" title="Voir les détails"><i class="bi bi-arrow-right"></i></a>
                 </div>
+              </div>
+              <div class="projet-info">
+                <h4>FreelanceIT</h4>
+                <p>Plateforme de mise en relation entre freelances informatiques et entreprises.</p>
+                <div class="projet-tags"><span>École</span><span>Groupe</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 : Castify -->
+          <div class="col-lg-4 col-md-6 projet-item isotope-item filter-ecole">
+            <div class="projet-card">
+              <div class="projet-img">
+                <img src="<?= $baseUrl ?>public/assets/img/projets/castify.webp" alt="Castify" class="img-fluid"
+                     onerror="this.src='<?= $baseUrl ?>public/assets/img/projet/projet-2.webp'">
+                <div class="projet-overlay">
+                  <a href="<?= $baseUrl ?>public/assets/img/projets/castify.webp" class="glightbox projet-lightbox" title="Castify"><i class="bi bi-zoom-in"></i></a>
+                  <a href="index.php?page=projet_detail&id=5" class="projet-details-link" title="Voir les détails"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="projet-info">
+                <h4>Castify</h4>
+                <p>Application de mise en relation entre réalisateurs et acteurs pour des castings.</p>
+                <div class="projet-tags"><span>École</span><span>Groupe</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 : Site de Cours -->
+          <div class="col-lg-4 col-md-6 projet-item isotope-item filter-personnel">
+            <div class="projet-card">
+              <div class="projet-img">
+                <img src="<?= $baseUrl ?>public/assets/img/projet/projet-4.webp" alt="Site de Cours" class="img-fluid">
+                <div class="projet-overlay">
+                  <a href="<?= $baseUrl ?>public/assets/img/projet/projet-4.webp" class="glightbox projet-lightbox" title="Site de Cours"><i class="bi bi-zoom-in"></i></a>
+                  <a href="index.php?page=projet_detail&id=6" class="projet-details-link" title="Voir les détails"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="projet-info">
+                <h4>Site de Cours</h4>
+                <p>Site personnel pour consulter mes cours classés par matière et par chapitre.</p>
+                <div class="projet-tags"><span>Personnel</span><span>Solo</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7 : Portfolio WordPress -->
+          <div class="col-lg-4 col-md-6 projet-item isotope-item filter-personnel">
+            <div class="projet-card">
+              <div class="projet-img">
+                <img src="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" alt="Portfolio WordPress" class="img-fluid"
+                     onerror="this.src='<?= $baseUrl ?>public/assets/img/projet/projet-3.webp'">
+                <div class="projet-overlay">
+                  <a href="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" class="glightbox projet-lightbox" title="Portfolio WordPress"><i class="bi bi-zoom-in"></i></a>
+                  <a href="index.php?page=projet_detail&id=7" class="projet-details-link" title="Voir les détails"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="projet-info">
+                <h4>Portfolio WordPress</h4>
+                <p>Première version du portfolio réalisée avec WordPress et Elementor.</p>
+                <div class="projet-tags"><span>Personnel</span><span>Solo</span></div>
               </div>
             </div>
           </div>
 
         </div><!-- End projet Items Container -->
       </div>
-
     </div>
   </section>
 
