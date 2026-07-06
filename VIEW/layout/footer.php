@@ -21,7 +21,6 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <!-- Vendor JS Files -->
   <?php $baseUrl = isset($baseUrl) ? $baseUrl : rtrim(dirname($_SERVER['SCRIPT_NAME']), "\\/") . '/'; ?>
   <script src="<?= $baseUrl ?>public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="<?= $baseUrl ?>public/assets/vendor/php-email-form/validate.js"></script>
@@ -36,6 +35,28 @@
 
   <!-- Main JS File -->
   <script src="<?= $baseUrl ?>public/assets/js/main.js"></script>
+
+  <!-- Preloader fallback : force la disparition après 3s même si des images sont en 404 -->
+  <script>
+    (function() {
+      function hidePreloader() {
+        var preloader = document.getElementById('preloader');
+        if (preloader) {
+          preloader.style.transition = 'opacity 0.5s ease';
+          preloader.style.opacity   = '0';
+          setTimeout(function() {
+            preloader.style.display = 'none';
+          }, 500);
+        }
+      }
+      // Force hide après 3 secondes maximum
+      setTimeout(hidePreloader, 3000);
+      // Hide dès que le DOM est prêt si main.js n'a pas encore agi
+      window.addEventListener('load', function() {
+        setTimeout(hidePreloader, 300);
+      });
+    })();
+  </script>
 
 </body>
 
