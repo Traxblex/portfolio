@@ -42,7 +42,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.php?page=index">ACCUEIL</a></li>
+          <li><a href="index.php?page=index">ALLAMA</a></li>
           <li><a href="index.php?page=about">À PROPOS</a></li>
           <li><a href="index.php?page=cv">CV</a></li>
           <li><a href="index.php?page=bts_sio">BTS SIO</a></li>

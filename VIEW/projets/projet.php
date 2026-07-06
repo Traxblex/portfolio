@@ -28,7 +28,7 @@
                   <img src="<?= $baseUrl ?>public/assets/img/projet/projet-1.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projet/projet-1.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="#" class="projet-details-link"><i class="bi bi-github"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
@@ -48,12 +48,12 @@
                   <img src="<?= $baseUrl ?>public/assets/img/projets/fitsport.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projets/fitsport.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="../../projet" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="../../projet" class="projet-details-link"><i class="bi bi-github"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
                   <h4>Application web</h4>
-                  <p>J'ai développé une application web pour permettre à un club de sport de gérer ses inscriptions et ses séances collectives.</p>
+                  <p>J'ai développé une application web pour permettre à un club de sport de gérer ses inscriptions et ses séances.</p>
                   <div class="projet-tags">
                     <span>École</span>
                     <span>Groupe</span>
@@ -68,7 +68,7 @@
                   <img src="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="index.php?page=index" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="index.php?page=index" class="projet-details-link"><i class="bi bi-github"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
@@ -82,22 +82,22 @@
               </div>
             </div>
 
-          <!--
+          
             <div class="col-lg-4 col-md-6 projet-item isotope-item filter-technology">
               <div class="projet-card">
                 <div class="projet-img">
                   <img src="<?= $baseUrl ?>public/assets/img/projet/projet-4.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projet/projet-4.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="#" class="projet-details-link"><i class="bi bi-github"></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
-                  <h4>Digital Transformation</h4>
-                  <p>Technology Consulting</p>
+                  <h4>Site de cours</h4>
+                  <p>j'ai développé un site qui repertorie mes cours par matière et chapitre.</p>
                   <div class="projet-tags">
-                    <span>Technology</span>
-                    <span>Innovation</span>
+                    <span>École</span>
+                    <span>Seul</span>
                   </div>
                 </div>
               </div>
@@ -109,11 +109,51 @@
                   <img src="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="#" class="projet-details-link"><i class="bi bi-github"></i></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
-                  <h4>Market Expansion</h4>
+                  <h4>Gestion Finance</h4>
+                  <p>Strategic Planning</p>
+                  <div class="projet-tags">
+                    <span>Strategy</span>
+                    <span>Growth</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-strategy">
+              <div class="projet-card">
+                <div class="projet-img">
+                  <img src="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" alt="projet Item" class="img-fluid">
+                  <div class="projet-overlay">
+                    <a href="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="projet-details-link"><i class="bi bi-github"></i></i></a>
+                  </div>
+                </div>
+                <div class="projet-info">
+                  <h4>Gestion Finance</h4>
+                  <p>Strategic Planning</p>
+                  <div class="projet-tags">
+                    <span>Strategy</span>
+                    <span>Growth</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 projet-item isotope-item filter-strategy">
+              <div class="projet-card">
+                <div class="projet-img">
+                  <img src="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" alt="projet Item" class="img-fluid">
+                  <div class="projet-overlay">
+                    <a href="<?= $baseUrl ?>public/assets/img/projet/projet-5.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="projet-details-link"><i class="bi bi-github"></i></i></a>
+                  </div>
+                </div>
+                <div class="projet-info">
+                  <h4>Gestion Finance</h4>
                   <p>Strategic Planning</p>
                   <div class="projet-tags">
                     <span>Strategy</span>
@@ -129,7 +169,7 @@
                   <img src="<?= $baseUrl ?>public/assets/img/projet/projet-6.webp" alt="projet Item" class="img-fluid">
                   <div class="projet-overlay">
                     <a href="<?= $baseUrl ?>public/assets/img/projet/projet-6.webp" class="glightbox projet-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="projet-details-link"><i class="bi bi-link"></i></a>
+                    <a href="#" class="projet-details-link"><i class="bi bi-github"></i></i></a>
                   </div>
                 </div>
                 <div class="projet-info">
@@ -142,7 +182,7 @@
                 </div>
               </div>
             </div>
-            </div> End projet Items Container -->
+            </div> <!-- End projet Items Container -->
 
         </div>
 
