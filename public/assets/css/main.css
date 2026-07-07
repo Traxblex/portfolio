@@ -2853,3 +2853,52 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# Projet Cards - Alignement uniforme
+--------------------------------------------------------------*/
+
+/* Chaque colonne est un flex-column pour que toutes les cards aient la même hauteur */
+.projet .isotope-container .projet-item {
+  display: flex;
+}
+
+/* La card occupe toute la hauteur de sa colonne */
+.projet .projet-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image fixée à 220px avec object-fit cover : ratio uniforme peu importe l'image source */
+.projet .projet-card .projet-img {
+  flex-shrink: 0;
+  height: 220px;
+  overflow: hidden;
+}
+
+.projet .projet-card .projet-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.5s ease;
+}
+
+/* Le contenu info prend l'espace restant et aligne le bouton en bas */
+.projet .projet-card .projet-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
+
+.projet .projet-card .projet-info p {
+  flex: 1;
+}
+
+.projet .projet-card .projet-info .projet-tags {
+  margin-top: auto;
+  padding-top: 10px;
+}
