@@ -62,9 +62,9 @@
           <div class="col-lg-4 col-md-6 isotope-item filter-personnel">
             <div class="projet-card h-100 d-flex flex-column">
               <div class="projet-img" style="height:220px;overflow:hidden;">
-                <img src="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" alt="Portfolio Personnel" style="width:100%;height:100%;object-fit:cover;object-position:center;" onerror="this.onerror=null;this.src='<?= $baseUrl ?>public/assets/img/profile-square-11.png'">
+                <img src="<?= $baseUrl ?>public/assets/img/projets/portfolio.png" alt="Portfolio Personnel" style="width:100%;height:100%;object-fit:cover;object-position:center;" onerror="this.onerror=null;this.src='<?= $baseUrl ?>public/assets/img/profile-square-11.png'">
                 <div class="projet-overlay">
-                  <a href="<?= $baseUrl ?>public/assets/img/projets/portfolio.webp" class="glightbox projet-lightbox" title="Portfolio Personnel"><i class="bi bi-zoom-in"></i></a>
+                  <a href="<?= $baseUrl ?>public/assets/img/projets/portfolio.png" class="glightbox projet-lightbox" title="Portfolio Personnel"><i class="bi bi-zoom-in"></i></a>
                   <a href="index.php?page=projet_detail&id=3" class="projet-details-link" title="Voir les détails"><i class="bi bi-arrow-right"></i></a>
                 </div>
               </div>

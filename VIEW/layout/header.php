@@ -15,8 +15,8 @@ if (!isset($baseUrl)) {
   <meta name="keywords" content="portfolio, développeur web, BTS SIO SLAM, PHP, JavaScript">
 
   <!-- Favicons -->
-  <link href="<?= $baseUrl ?>public/assets/img/favicon.png" rel="icon">
-  <link href="<?= $baseUrl ?>public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ <link rel="shortcut icon" href="public/assets/img/favico.png" type="image/x-icon">
+  <link href="public/assets/img/appl-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
