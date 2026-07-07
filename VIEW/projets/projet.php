@@ -113,7 +113,7 @@
           </div>
 
           <!-- 6 : Site de Cours -->
-          <div class="col-lg-4 col-md-6 isotope-item filter-personnel">
+          <div class="col-lg-4 col-md-6 isotope-item filter-ecole">
             <div class="projet-card h-100 d-flex flex-column">
               <div class="projet-img" style="height:220px;overflow:hidden;">
                 <img src="<?= $baseUrl ?>public/assets/img/projets/site_cours.png" alt="Site de Cours" style="width:100%;height:100%;object-fit:cover;object-position:center;" onerror="this.onerror=null;this.src='<?= $baseUrl ?>public/assets/img/profile-square-11.png'">
