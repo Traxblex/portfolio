@@ -20,6 +20,7 @@
       </ul>
 
       <!-- Grille projets -->
+            <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
       <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
         <!-- 1 : Pizzeria -->
