@@ -10,7 +10,7 @@
             </p>
         </div>
 
-        <div class="row g-2 mb-4 dispay-5" data-aos="fade-up" data-aos-delay="100">
+        <!--<div class="row g-2 mb-4 dispay-5" data-aos="fade-up" data-aos-delay="100">
             <div class="col-12 col-md-3">
             <button class="btn bg-secondary w-100 rounded-1 fw-medium py-3">Mes comptes-rendus</button>
             </div>
@@ -20,7 +20,7 @@
             <div class="col-12 col-md-3">
             <button class="btn bg-secondary w-100 rounded-1 fw-medium py-3">Mes notes de synthèse</button>
             </div>
-        </div>
+        </div> -->
 
         <div class="card bg-secondary opacity-10 rounded-4 shadow-sm" data-aos="fade-up" data-aos-delay="100">
             <div class="card-body p-4 p-md-5 --bs-success-border-subtle">

@@ -34,7 +34,7 @@
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
       <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <img src="assets/img/logo.webp" alt="">
+      <img src="assets/img/logo.png" alt="">
       <h1 class="sitename">ALLAMA</h1> 
     </a> -->
 
