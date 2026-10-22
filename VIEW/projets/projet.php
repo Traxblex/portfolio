@@ -148,6 +148,24 @@
             </div>
           </div>
 
+           <!-- 8 : Site creche -->
+          <div class="col-lg-4 col-md-6 isotope-item filter-ecole">
+            <div class="projet-card h-100 d-flex flex-column">
+              <div class="projet-img" style="height:220px;overflow:hidden;">
+                <img src="<?= $baseUrl ?>public/assets/img/projets/creche.png" alt="Site de Cours" style="width:100%;height:100%;object-fit:cover;object-position:center;" onerror="this.onerror=null;this.src='<?= $baseUrl ?>public/assets/img/profile-square-11.png'">
+                <div class="projet-overlay">
+                  <a href="<?= $baseUrl ?>public/assets/img/projets/creche.png" class="glightbox projet-lightbox" title="creche><i class="bi bi-zoom-in"></i></a>
+                  <a href="index.php?page=projet_detail&id=8" class="projet-details-link" title="Voir les détails"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="projet-info d-flex flex-column flex-grow-1 p-3">
+                <h4>Site de creche</h4>
+                <p class="flex-grow-1">Site de creche.</p>
+                <div class="projet-tags mt-auto"><span>École</span><span>Solo</span></div>
+              </div>
+            </div>
+          </div>
+
         </div><!-- /.isotope-container -->
       </div><!-- /.isotope-layout -->
     </div><!-- /.container -->

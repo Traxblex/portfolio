@@ -29,6 +29,13 @@ class PagesController {
             case 'bts_sio':
                 include __DIR__ . '/../VIEW/bts/btsSio.php';
                 break;
+            case 'certificat':
+                include __DIR__ . '/../VIEW/certificat/certificat.php';
+                break;
+            case 'veille':
+                include __DIR__ . '/../VIEW/veille/veille.php';
+                break;
+
             default:
                 include __DIR__ . '/../VIEW/intro/index.php';
                 break;

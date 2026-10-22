@@ -149,7 +149,25 @@ $projets = [
             'Optimisation SEO avec Yoast SEO',
             'Responsive design multi-appareils'
         ]
-    ]
+    ],
+    8 => [
+        'titre'          => 'Site de Creche',
+        'categorie'      => 'Personnel',
+        'type'           => 'Projet solo',
+        'date'           => '2026',
+        'technologies'   => ['HTML', 'CSS', 'PHP'],
+        'image'          => 'projets/creche.png',
+        'github'         => 'https://github.com/Traxblex/creche.git',
+        'live'           => '#',
+        'description'    => 'Site personnel permettant d\'inscrire son enfant dans une crèche, il permet au parent de créer un compte et d\'inscrire son enfant. Il permet aussi à la direction de la crèche d\'assigner les enfants au animateur avec un limite d\'enfant par animateur. Les Animateurs peuvent consulter la liste des enfants et voir s\'il ont un PAI',
+        'challenge'      => 'créer une limite d\'enfant par animateur et permettre au parent d\'incrire son enfants depuis son espace personnel',
+        'solution'       => 'J\'ai opté pour mettre en place un',
+        'fonctionnalites'=> [
+            'inscrire son enfant',
+            'Admin peut asigner les enfant aux animateur',
+            'les animateur peuvent voir la liste des enfants de sa classe',
+        ]
+    ],
 ];
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 1;

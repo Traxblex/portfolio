@@ -46,8 +46,10 @@ if (!isset($baseUrl)) {
           <li><a href="<?= $baseUrl ?>index.php?page=about">À PROPOS</a></li>
           <li><a href="<?= $baseUrl ?>index.php?page=cv">CV</a></li>
           <li><a href="<?= $baseUrl ?>index.php?page=bts_sio">BTS SIO</a></li>
+          <li><a href="<?= $baseUrl ?>index.php?page=certificat">Certificat</a></li>
           <li><a href="<?= $baseUrl ?>index.php?page=entreprise">ENTREPRISE</a></li>
           <li><a href="<?= $baseUrl ?>index.php?page=projet">PROJETS</a></li>
+          <li><a href="<?= $baseUrl ?>index.php?page=veille">Veille Techno</a></li>
           <li><a href="<?= $baseUrl ?>index.php?page=contact">CONTACT</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
