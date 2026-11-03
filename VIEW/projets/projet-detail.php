@@ -74,7 +74,7 @@ $projets = [
         'technologies'   => ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
         'image'          => 'projets/freelanceit.png',
         'github'         => 'https://github.com/Traxblex/freelanceIT.git',
-        'live'           => '#',
+        'live'           => 'https://freelanceit.allamacamara.fr',
         'description'    => 'FreelanceIT est une plateforme de mise en relation entre des freelances informatiques et des entreprises à la recherche de compétences techniques. Les entreprises publient des missions, les freelances postulent et un système de matching facilite la collaboration.',
         'challenge'      => 'Le défi était de concevoir un système de matching pertinent entre les profils freelances et les besoins des entreprises, tout en gérant les rôles (freelance / entreprise / admin) et en sécurisant les échanges et les données personnelles.',
         'solution'       => 'Nous avons développé une architecture MVC PHP avec une base de données MySQL relationnelle. Un système de tags de compétences permet le filtrage des missions. L\'authentification est sécurisée par sessions PHP avec hachage des mots de passe.',
@@ -110,7 +110,7 @@ $projets = [
     ],
     6 => [
         'titre'          => 'Site de Cours',
-        'categorie'      => 'Personnel',
+        'categorie'      => 'École',
         'type'           => 'Projet Groupe',
         'date'           => '2026',
         'technologies'   => ['HTML', 'CSS', 'JavaScript', 'PHP'],
@@ -152,9 +152,9 @@ $projets = [
     ],
     8 => [
         'titre'          => 'Site de Creche',
-        'categorie'      => 'Personnel',
+        'categorie'      => 'École',
         'type'           => 'Projet solo',
-        'date'           => '2026',
+        'date'           => 'Octobre 2026',
         'technologies'   => ['HTML', 'CSS', 'PHP'],
         'image'          => 'projets/creche.png',
         'github'         => 'https://github.com/Traxblex/creche.git',
@@ -167,7 +167,28 @@ $projets = [
             'Admin peut asigner les enfant aux animateur',
             'les animateur peuvent voir la liste des enfants de sa classe',
         ]
-    ],
+      ],
+      9 => [
+        'titre'          => 'Site de Hebmat',
+        'categorie'      => 'Personnel',
+        'type'           => 'Projet solo',
+        'date'           => '	Novembre 2026',
+        'technologies'   => [	'PHP', 'FastAPI', 'Ansible', 'Docker', 'Docker Swarm', 'Nginx', 'Tailscale', 'MariaDB', 'Linux', 'Traefik'],
+        'image'          => 'projets/hebmat.png',
+        'github'         => 'https://github.com/Traxblex/hebmat.git',
+        'live'           => 'https://hebmat.allamacamara.fr',
+        'description'    => 'HebMat est une plateforme d\'hébergement d\'applications pensée pour les projets web. Elle permet de déployer un site depuis un dépôt Git ou une archive ZIP, de gérer son domaine et sa base de données, et de suivre ses journaux depuis un même espace, sans avoir à gérer soi-même l\'infrastructure du cluster.',
+        'challenge'      => 'Offrir à un développeur une expérience simple, où l\'on dépose son site et où il est mis en ligne, alors que derrière il faut orchestrer des serveurs, isoler les applications et automatiser chaque déploiement. Le défi a été de concevoir et de relier moi-même chaque brique de la chaîne : l\'interface, l\'API, l\'automatisation et le cluster.',
+        'solution'       => 'L\'architecture suit une chaîne claire : une interface web, une API FastAPI qui reçoit les demandes de déploiement dans une file, Ansible qui automatise l\'exécution sur les serveurs, puis Docker Swarm qui fait tourner les applications dans des conteneurs. L\'administration des serveurs passe par un réseau privé Tailscale. Chaque application dispose de son propre sous-domaine et d\'une base de données isolée.',
+        'fonctionnalites'=> [
+            'Déploiement d\'un site depuis un dépôt Git ou une archive ZIP',
+            'File de déploiements gérée par l\'API FastAPI, avec suivi de l\'activité récente dans le tableau de bord',
+            'Un sous-domaine par application (par exemple portfolio.apps.hebmat.allamacamara.fr)',
+            'Une base de données dédiée et isolée pour chaque site',
+            'Tableau de bord : vue d\'ensemble des projets (en ligne, en cours, à vérifier) et accès aux journaux',
+            'Infrastructure automatisée avec Ansible sur un cluster Docker Swarm (un nœud manager et un nœud worker)' 
+        ]
+      ],
 ];
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
@@ -244,6 +265,13 @@ $nextId = ($id < count($projets)) ? $id + 1 : null;
               <i class="bi bi-github"></i>
               <a href="<?= htmlspecialchars($projet['github']) ?>" target="_blank">Voir sur GitHub</a>
             </div>
+
+            <?php if ($projet['live'] !== '#'): ?>
+              <div class="project-website mb-3">
+                <i class="bi bi-globe"></i>
+                <a href="<?= htmlspecialchars($projet['live']) ?>" target="_blank" rel="noopener">Voir le site en ligne</a>
+              </div>
+            <?php endif; ?>
 
             <div class="project-overview">
               <p class="lead"><?= htmlspecialchars($projet['description']) ?></p>
