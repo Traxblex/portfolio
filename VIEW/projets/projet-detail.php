@@ -151,7 +151,7 @@ $projets = [
         ]
     ],
     8 => [
-        'titre'          => 'Site de Creche',
+        'titre'          => 'Site de Crèche',
         'categorie'      => 'École',
         'type'           => 'Projet solo',
         'date'           => 'Octobre 2026',
